@@ -34,7 +34,7 @@ class App extends React.Component {
 
         {this.state.answer &&
         <div id="whenClicked">
-          <h2> The Magic 8 Ball says: {this.state.answer} </h2>
+          <h2 class="response"> The Magic 8 Ball says:</h2> <p>{this.state.answer} </p>
         </div>
         }
 

@@ -1,51 +1,63 @@
 h1{
   font-size: 65px;
   color:yellow;
+  height: 100px;
+  width: 400px;
   position: fixed;
-  top: 60%;
-  left: 35%;
-  margin-top: -300px;
-  margin-left: -100px;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
 }
 input{
-  height:50px;
-  font-size:25px;
+  font-size: 30px;
   position: fixed;
-  top: 55%;
-  left: 50%;
-  margin-top: -140px;
-  margin-left: -140px;
+  height: 30px;
+  width: 400px;
+  position: fixed;
+  top: 225px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
 
 }
 button{
+  height: 20px;
+  width: 125px;
+  top: 260px;
+  left: 0;
+  right: 285px;
+  margin: 0 auto;
   position: fixed;
-  top: 55%;
-  left: 44%;
-  margin-top: -75px;
-  margin-left: -100px;
 }
 
 button:hover {
     background-color: yellow;
 }
 h2{
-  font-size: 50px;
+  font-size: 60px;
+  height: 100px;
+  width: 650px;
   position: fixed;
-  top: 50%;
-  left: 25%;
-  margin-top: 50px;
-  margin-left: -100px;
+  top: 400px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
-p{
-  border:2px;
-  color:white;
-  font-size:50px;
-  position: fixed;
-  top: 50%;
-  left: 25%;
-  margin-top: 100px;
-  margin-left: -100px;
 
+h3{
+  font-style: italic;
+  font-size: 65px;
+  color: white;
+  height: 100px;
+  width: 600px;
+  position: fixed;
+  top: 500px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 body{

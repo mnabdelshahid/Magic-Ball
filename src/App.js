@@ -21,7 +21,7 @@ class App extends React.Component {
 
   render(){
     return (
-      <div>
+      <div id="container">
         <h1>Magic 8 Ball</h1>
         <input class="textbox" type='text' placeholder="Ask Me a Question!"
         />
@@ -34,11 +34,9 @@ class App extends React.Component {
 
         {this.state.answer &&
         <div id="whenClicked">
-          <h2 class="response"> The Magic 8 Ball says:</h2> <p>{this.state.answer} </p>
+          <h2 class="response"> The Magic 8 Ball says:</h2> <h3>{this.state.answer} </h3>
         </div>
         }
-
-
       </div>
 
     )

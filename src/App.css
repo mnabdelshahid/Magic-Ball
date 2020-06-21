@@ -25,10 +25,10 @@ input{
 }
 button{
   height: 20px;
-  width: 125px;
+  width:150px;
   top: 260px;
   left: 0;
-  right: 285px;
+  right: 255px;
   margin: 0 auto;
   position: fixed;
 }

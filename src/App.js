@@ -27,8 +27,7 @@ class App extends React.Component {
         />
         <br />
         <button class="button"
-          onClick={this.handleSubmit}
-        >
+          onClick={this.handleSubmit}>
           Ask the Magic 8 Ball
         </button>
 
